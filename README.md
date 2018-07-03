@@ -251,11 +251,9 @@ sudo apt-get upgrade
 
    1. https://github.com/rrjoson/udacity-linux-server-configuration
 
-   2. https://github.com/sriramTalasila/Udacity-Linux-Server-Configuration
+   2. https://github.com/boisalai/udacity-linux-server-configuration
 
-   3. https://github.com/boisalai/udacity-linux-server-configuration
+   3. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 
-   4. https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
-
-   5. stackoverflow website 
+   4. stackoverflow website 
    
