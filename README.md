@@ -66,7 +66,7 @@ sudo apt-get upgrade
    
    Now from your log in to grader with private key generated 
    ```
-   ssh -i .ssh/id_rsa grader@ipaddress 
+   ssh -i .ssh/id_rsa grader@13.127.162.197
    ```
   #### Changing the ssh port to 2200
    ```
@@ -99,6 +99,7 @@ sudo apt-get upgrade
   Goto networking then change firewall as follows
   ```
   Custom        UDP        123
+  
   Custom        TCP        2200
   ```
   
