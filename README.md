@@ -9,12 +9,6 @@ Server IP Address 13.127.162.197
 
 Hosted site Url [http://13.127.162.197.xip.io/](http://13.127.162.197.xip.io/)
 
-### How to connect as grader:
-  save private key provided in your local machine and run the following command
-  ```
-  ssh -i path/to/privatekey -p 2200 grader@13.127.162.197
-    
-  ```
 ### Configuring Linux Server
 
 #### Updating all packages
@@ -131,7 +125,7 @@ sudo apt-get upgrade
    
    `sudo git clone 'https://github.com/PravallikaChodisetty/catalogpr.git'`
    
-   Rename your repository to FlaskApp
+   Rename the repository to FlaskApp
    
    Then rename your project file to `__init__.py`
    
