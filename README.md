@@ -259,17 +259,21 @@ sudo apt-get upgrade
    
    now go to ssh and in ssh goto to auth load the privatekey1
    
-   now goto grader login as : ubuntu
+   login as : ubuntu
    
    su - grader
    
    password for grader:prav123
    
-  if necessary:
+  #### Making .ssh folder
   
    mkdir .ssh
    
+   creates .ssh directory
+   
    touch .ssh/authorized_keys
+   
+   create authorized_keys in .ssh folder
    
    nano .ssh/authorized_keys
    
