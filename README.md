@@ -22,6 +22,8 @@ sudo apt-get upgrade
   sudo adduser grader
   ```
   This will add new user
+  give a password.
+  (Mine is) : prav123
   ```
   sudo nano /etc/sudoers
   ```
