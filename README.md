@@ -251,9 +251,9 @@ sudo apt-get upgrade
 
    ## Login to the grader
    
-   First open puttygen and then load the test1.ppk to genarate private key 
+   First open puttygen and then load the test1.pem to genarate private key 
    
-   It is saved as privatekey1
+   It is saved as privatekey1.ppk 
    
    Now open putty give the static ip:13.127.162.197 port:2200
    
@@ -264,6 +264,14 @@ sudo apt-get upgrade
    su - grader
    
    password for grader:prav123
+   
+   mkdir .ssh
+   
+   touch .ssh/authorized_keys
+   
+   nano .ssh/authorized_keys
+   
+   now copy the contents of id_rsa (microsoft office file) and paste it in the grader. 
 
    ## References
 
