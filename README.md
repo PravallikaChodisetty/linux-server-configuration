@@ -277,7 +277,7 @@ sudo apt-get upgrade
    
    .ssh file will be created with id_rsa files
    
-   now copy the contents of id_rsa (microsoft office file) and paste it in the grader. 
+   now copy the contents of id_rsa.pub file (microsoft office file) and paste it in the grader. 
 
    ## References
 
