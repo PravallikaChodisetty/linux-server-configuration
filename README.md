@@ -84,7 +84,7 @@ sudo apt-get upgrade
    
    Now Login using command like this
    ```
-   ssh -i .ssh/id_rsa -p 2200 grader@ipaddress
+   ssh -i .ssh/id_rsa -p 2200 grader@13.127.162.197
    ```
    
   #### Disabling ssh login as root
