@@ -89,15 +89,20 @@ sudo apt-get upgrade
   make change `PermitRootLogin no`
   
   #### Configurating  Ufw firewall
-
-  Goto amazon aws lightsail account 
-
-  Goto networking then change firewall as follows
-  ```
-  Custom        UDP        123
   
-  Custom        TCP        2200
   ```
+  sudo ufw allow 2200/tcp
+  sudo ufw allow 80/tcp
+  sudo ufw allow 123/udp
+  sudo ufw enable
+  ```
+  This will allow all required ports and enables the ufw
+
+  After that
+  ```
+  sudo ufw status
+  ```
+  It will display all allowed ports
   
   #### Installing Apache2 
   In terminal 
