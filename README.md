@@ -249,6 +249,22 @@ sudo apt-get upgrade
   
    `sudo service apache2 restart`
 
+   ## Login to the grader
+   
+   First open puttygen and then load the test1.ppk to genarate private key 
+   
+   It is saved as privatekey1
+   
+   Now open putty give the static ip:13.127.162.197 port:2200
+   
+   now go to ssh and in ssh goto to auth load the privatekey1
+   
+   now goto grader login as : ubuntu
+   
+   su - grader
+   
+   password for grader:prav123
+
    ## References
 
    1. https://github.com/rrjoson/udacity-linux-server-configuration
