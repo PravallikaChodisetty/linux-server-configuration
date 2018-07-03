@@ -265,11 +265,17 @@ sudo apt-get upgrade
    
    password for grader:prav123
    
+  if necessary:
+  
    mkdir .ssh
    
    touch .ssh/authorized_keys
    
    nano .ssh/authorized_keys
+   
+   In git bash ssh-keygen
+   
+   .ssh file will be created with id_rsa files
    
    now copy the contents of id_rsa (microsoft office file) and paste it in the grader. 
 
